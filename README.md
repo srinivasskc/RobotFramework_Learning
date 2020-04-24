@@ -18,4 +18,11 @@ IE Edge - Microsoft Edge Legacy - https://developer.microsoft.com/en-us/microsof
         Note: For IE Edge 18 Run below command  (?)   <br />
         DISM.exe /Online /Add-Capability /CapabilityName:Microsoft.WebDriver~~~~0.0.1.0
 
+# System Environment Path Variables
+<b>Python Location</b>  <br/>
+C:\Python3     <br/>
+C:\Python3\Scripts  <br/>
+C:\Python3\Lib\site-packages\  
 
+<b>Web Drivers Location</b>  <br/>
+C:\bin      <br/>
