@@ -37,3 +37,8 @@ python -V  <br>
 pip  <br>
 pip -V  <br>
 pip  list  <br>
+
+# Installing Robot Framework, Selenium Library, RIDE Editor
+pip install robotframework  <br>
+pip install robotframework-seleniumlibrary <br>
+pip install robotframework-ride
