@@ -18,6 +18,10 @@ IE Edge - Microsoft Edge Legacy - https://developer.microsoft.com/en-us/microsof
         Note: For IE Edge 18 Run below command  (?)   <br />
         DISM.exe /Online /Add-Capability /CapabilityName:Microsoft.WebDriver~~~~0.0.1.0
 
+# Installing Python and PIP (Package Installer for Python)
+While Installing Python, Select "Add Python to PATH" and In Custom Installation select "PIP"  <br/>
+This will install Python and PIP
+
 # System Environment Path Variables
 <b>Python Location</b>  <br/>
 C:\Python3     <br/>
@@ -26,3 +30,10 @@ C:\Python3\Lib\site-packages\
 
 <b>Web Drivers Location</b>  <br/>
 C:\bin      <br/>
+
+
+# Verifying the Python and PIP from Command Line
+python -V  <br>
+pip  <br>
+pip -V  <br>
+pip  list  <br>
