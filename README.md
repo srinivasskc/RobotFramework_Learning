@@ -50,7 +50,16 @@ RIDE - https://github.com/robotframework/RIDE
 
 
 # Built-In Libraries
-http://robotframework.org/robotframework/latest/libraries/BuiltIn.html#Shortcuts
+http://robotframework.org/robotframework/latest/libraries/BuiltIn.html#Shortcuts   <br>
+a. Log <br>
+b. ConvertToHex <br>
+c. ConvertToBytes <br>
+d. ConvertToBoolean <br>
+e. Set Variable  <br>
+f. Set Variable If <br>
+g. Set Global Variable <br>
+
+
 
 # References
 Convert To - https://www.rapidtables.com/convert/number/hex-dec-bin-converter.html
