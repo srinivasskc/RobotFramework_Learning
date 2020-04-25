@@ -53,3 +53,5 @@ RIDE - https://github.com/robotframework/RIDE
 Log -- Log the Message
 
 
+# References
+Convert To - https://www.rapidtables.com/convert/number/hex-dec-bin-converter.html
