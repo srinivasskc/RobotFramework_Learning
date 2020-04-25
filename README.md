@@ -49,9 +49,8 @@ Robot Framework Main - https://github.com/robotframework   <br>
 RIDE - https://github.com/robotframework/RIDE
 
 
-# Built-In Keywords
-Log -- Log the Message
-
+# Built-In Libraries
+http://robotframework.org/robotframework/latest/libraries/BuiltIn.html#Shortcuts
 
 # References
 Convert To - https://www.rapidtables.com/convert/number/hex-dec-bin-converter.html
