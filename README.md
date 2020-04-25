@@ -58,8 +58,15 @@ d. ConvertToBoolean <br>
 e. Set Variable  <br>
 f. Set Variable If <br>
 g. Set Global Variable <br>
-
-
+h. ConvertToOctal  <br>
+i. ConvertToNumber  <br>
+j. ConvertToInt  <br>
+k. Set Log Level - INFO, TRACE, DEBUG, WARN, ERROR, NONE
 
 # References
 Convert To - https://www.rapidtables.com/convert/number/hex-dec-bin-converter.html
+
+# Functions
+Continue For Loops -- Skips the Current For Loop Iteration and Continues from the Next
+
+
