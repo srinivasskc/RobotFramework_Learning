@@ -42,12 +42,15 @@ pip  list  <br>
 # Installing Robot Framework, Selenium Library, RIDE Editor
 pip install robotframework  <br>
 pip install robotframework-seleniumlibrary <br>
-pip install robotframework-ride       #Not Used Yet!
+pip install robotframework-ride   <br>    #Not Used Yet!
+pip install robotframework-seleniumtestability  <br>
+
 
 
 # Github Pages
 Robot Framework Main - https://github.com/robotframework   <br>
 RIDE - https://github.com/robotframework/RIDE
+Selenium Testability - https://pypi.org/project/robotframework-seleniumtestability/
 
 
 # Built-In Libraries
