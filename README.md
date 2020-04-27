@@ -90,24 +90,24 @@ c. Get Count -- Returns and logs how many times item is found from Container.
 https://robotmetrics.netlify.com/  --- https://github.com/adiralashiva8/robotframework-metrics  <br>
 
 <b>Installing RobotFramwork-Metrics</b>  <br>
-pip install robotframework-metrics
+pip install robotframework-metrics  <br>
 
-Once installation is done and Run the Project Test Cases.
-Output:  C:\development\robot-scripts\Project\results\Chrome\output.xml
-Log:     C:\development\robot-scripts\Project\results\Chrome\log.html
-Report:  C:\development\robot-scripts\Project\results\Chrome\report.html
+Once installation is done and Run the Project Test Cases.  <br>
+Output:  C:\development\robot-scripts\Project\results\Chrome\output.xml  <br>
+Log:     C:\development\robot-scripts\Project\results\Chrome\log.html <br>
+Report:  C:\development\robot-scripts\Project\results\Chrome\report.html <br>
 
-We need to run another command:
-C:\development\robot-scripts\Project>robotmetrics --inputpath ./results/Chrome --output output.xml --log log.html
+We need to run another command:  <br>
+C:\development\robot-scripts\Project>robotmetrics --inputpath ./results/Chrome --output output.xml --log log.html   <br>
 
-The result will be in HTML Page.
+The result will be in HTML Page.  <br>
 
-INFO:Converting .xml to .html file. This may take few minutes...
-INFO:1 of 4: Capturing dashboard content...
-INFO:2 of 4: Capturing suite metrics...
-INFO:3 of 4: Capturing test metrics...
-INFO:4 of 4: Capturing keyword metrics...
-INFO:Results file created successfully and can be found at C:\development\robot-scripts\Project\results\Chrome\metrics-20200427-095742.html
+INFO:Converting .xml to .html file. This may take few minutes...  <br>
+INFO:1 of 4: Capturing dashboard content...  <br>
+INFO:2 of 4: Capturing suite metrics...  <br>
+INFO:3 of 4: Capturing test metrics...  <br>
+INFO:4 of 4: Capturing keyword metrics...  <br>
+INFO:Results file created successfully and can be found at C:\development\robot-scripts\Project\results\Chrome\metrics-20200427-095742.html <br>
 
 
 
