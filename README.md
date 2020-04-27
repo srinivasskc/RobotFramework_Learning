@@ -2,8 +2,9 @@
 Robot Framework and Selenium Library
 
 # Official Websites
-Robot Framework - https://robotframework.org/  
-Selenium Web Driver - https://www.selenium.dev/
+Robot Framework - https://robotframework.org/   <br>
+Selenium Web Driver - https://www.selenium.dev/ <br>
+Robot Framework API Documentation - https://robot-framework.readthedocs.io/en/v3.1.2/index.html
 
 # Downloads
 Python - https://www.python.org/downloads/    (Python 3.8.2)  <br />
