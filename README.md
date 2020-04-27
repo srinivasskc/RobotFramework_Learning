@@ -51,17 +51,15 @@ RIDE - https://github.com/robotframework/RIDE
 
 # Built-In Libraries
 http://robotframework.org/robotframework/latest/libraries/BuiltIn.html#Shortcuts   <br>
-a. Log <br>
-b. ConvertToHex <br>
-c. ConvertToBytes <br>
-d. ConvertToBoolean <br>
-e. Set Variable  <br>
-f. Set Variable If <br>
-g. Set Global Variable <br>
-h. ConvertToOctal  <br>
-i. ConvertToNumber  <br>
-j. ConvertToInt  <br>
-k. Set Log Level - INFO, TRACE, DEBUG, WARN, ERROR, NONE
+a. ConvertToHex <br>
+b. ConvertToBytes <br>
+c. ConvertToBoolean <br>
+d. Set Variable  <br>
+e. Set Variable If <br>
+f. Set Global Variable <br>
+g. ConvertToOctal  <br>
+h. ConvertToNumber  <br>
+i. ConvertToInt  <br>
 
 # References
 Convert To - https://www.rapidtables.com/convert/number/hex-dec-bin-converter.html
@@ -73,3 +71,43 @@ Continue For Loops -- Skips the Current For Loop Iteration and Continues from th
 a. Import Library <br>
 b. Import Resource <br>
 c. Import Variables <br>
+
+# Evaluating Expressions - Built-In Keywords
+a. Evaluate <br>
+
+# Multi String Comparison - Built-In Keywords
+a. Catenate --- Join two Strings <br>
+
+# Logs - Built-In Keywords
+a. Log <br>
+b. Set Log Level - INFO, TRACE, DEBUG, WARN, ERROR, NONE
+c. Get Count -- Returns and logs how many times item is found from Container.
+
+
+
+
+# Robot Framework Metrics Report
+https://robotmetrics.netlify.com/  --- https://github.com/adiralashiva8/robotframework-metrics  <br>
+
+<b>Installing RobotFramwork-Metrics</b>  <br>
+pip install robotframework-metrics
+
+Once installation is done and Run the Project Test Cases.
+Output:  C:\development\robot-scripts\Project\results\Chrome\output.xml
+Log:     C:\development\robot-scripts\Project\results\Chrome\log.html
+Report:  C:\development\robot-scripts\Project\results\Chrome\report.html
+
+We need to run another command:
+C:\development\robot-scripts\Project>robotmetrics --inputpath ./results/Chrome --output output.xml --log log.html
+
+The result will be in HTML Page.
+
+INFO:Converting .xml to .html file. This may take few minutes...
+INFO:1 of 4: Capturing dashboard content...
+INFO:2 of 4: Capturing suite metrics...
+INFO:3 of 4: Capturing test metrics...
+INFO:4 of 4: Capturing keyword metrics...
+INFO:Results file created successfully and can be found at C:\development\robot-scripts\Project\results\Chrome\metrics-20200427-095742.html
+
+
+
