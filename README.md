@@ -117,5 +117,9 @@ INFO:4 of 4: Capturing keyword metrics...
 
 INFO:Results file created successfully and can be found at C:\development\robot-scripts\Project\results\Chrome\metrics-20200427-095742.html <br>
 
+# Robot Framework - ScreenCapLibrary
 
+pip install --upgrade robotframework-screencaplibrary
+
+https://github.com/mihaiparvu/ScreenCapLibrary
 
