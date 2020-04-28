@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.8.2 on win32)" generated="20200423 17:54:39.792" rpa="false">
+<suite id="s1" name="Locator" source="C:\development\robot-scripts\amazon\Tests\Locator.robot">
+<test id="s1-t1" name="User Should be able to search for Item to Checkout">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>http://amazon.in</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200423 17:54:40.098" level="INFO">Opening browser 'chrome' to base url 'http://amazon.in'.</msg>
+<status status="PASS" starttime="20200423 17:54:40.098" endtime="20200423 17:54:47.988"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200423 17:54:50.990" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200423 17:54:47.988" endtime="20200423 17:54:50.990"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>id=twotabsearchtextbox</arg>
+<arg>Gita</arg>
+</arguments>
+<msg timestamp="20200423 17:54:50.991" level="INFO">Typing text 'Gita' into text field 'id=twotabsearchtextbox'.</msg>
+<status status="PASS" starttime="20200423 17:54:50.991" endtime="20200423 17:54:51.113"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200423 17:54:54.115" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200423 17:54:51.114" endtime="20200423 17:54:54.115"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html/body/div[1]/header/div/div[1]/div[3]/div/form/div[2]/div/input</arg>
+</arguments>
+<msg timestamp="20200423 17:54:54.116" level="INFO">Clicking button 'xpath=/html/body/div[1]/header/div/div[1]/div[3]/div/form/div[2]/div/input'.</msg>
+<status status="PASS" starttime="20200423 17:54:54.115" endtime="20200423 17:54:56.730"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200423 17:54:58.733" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200423 17:54:56.731" endtime="20200423 17:54:58.733"></status>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/span[4]/div[1]/div[1]/div[1]/span[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/h2[1]/a[1]</arg>
+</arguments>
+<msg timestamp="20200423 17:54:58.734" level="INFO">Clicking link 'xpath=/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/span[4]/div[1]/div[1]/div[1]/span[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/h2[1]/a[1]'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20200423 17:54:59.095" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-5.png"&gt;&lt;img src="selenium-screenshot-5.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200423 17:54:58.778" endtime="20200423 17:54:59.095"></status>
+</kw>
+<msg timestamp="20200423 17:54:59.099" level="FAIL">Link with locator 'xpath=/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/span[4]/div[1]/div[1]/div[1]/span[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/h2[1]/a[1]' not found.</msg>
+<status status="FAIL" starttime="20200423 17:54:58.734" endtime="20200423 17:54:59.099"></status>
+</kw>
+<doc>This is search test</doc>
+<tags>
+<tag>smoke</tag>
+</tags>
+<status status="FAIL" starttime="20200423 17:54:40.097" endtime="20200423 17:54:59.100" critical="yes">Link with locator 'xpath=/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/span[4]/div[1]/div[1]/div[1]/span[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/h2[1]/a[1]' not found.</status>
+</test>
+<doc>This is to identify the locators</doc>
+<status status="FAIL" starttime="20200423 17:54:39.799" endtime="20200423 17:54:59.104"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1">smoke</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Locator">Locator</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

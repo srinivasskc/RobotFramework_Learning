@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2rc2 (Python 3.8.2 on win32)" generated="20200425 10:58:26.571" rpa="false">
+<suite id="s1" name="ConverToInt" source="C:\development\robot-scripts\amazon\Tests\ConverToInt.robot">
+<test id="s1-t1" name="Test Case 1">
+<kw name="Convert To Integer" library="BuiltIn">
+<doc>Converts the given item to an integer number.</doc>
+<arguments>
+<arg>FF</arg>
+<arg>16</arg>
+</arguments>
+<assign>
+<var>${HexToInt}</var>
+</assign>
+<msg timestamp="20200425 10:58:26.626" level="INFO">${HexToInt} = 255</msg>
+<status status="PASS" starttime="20200425 10:58:26.626" endtime="20200425 10:58:26.626"></status>
+</kw>
+<kw name="Convert To Integer" library="BuiltIn">
+<doc>Converts the given item to an integer number.</doc>
+<arguments>
+<arg>100</arg>
+<arg>8</arg>
+</arguments>
+<assign>
+<var>${OctToInt}</var>
+</assign>
+<msg timestamp="20200425 10:58:26.627" level="INFO">${OctToInt} = 64</msg>
+<status status="PASS" starttime="20200425 10:58:26.627" endtime="20200425 10:58:26.627"></status>
+</kw>
+<kw name="Log Many" library="BuiltIn">
+<doc>Logs the given messages as separate entries using the INFO level.</doc>
+<arguments>
+<arg>${HexToInt}</arg>
+<arg>${OctToInt}</arg>
+</arguments>
+<msg timestamp="20200425 10:58:26.628" level="INFO">255</msg>
+<msg timestamp="20200425 10:58:26.629" level="INFO">64</msg>
+<status status="PASS" starttime="20200425 10:58:26.628" endtime="20200425 10:58:26.629"></status>
+</kw>
+<status status="PASS" starttime="20200425 10:58:26.625" endtime="20200425 10:58:26.629" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200425 10:58:26.577" endtime="20200425 10:58:26.632"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="ConverToInt">ConverToInt</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

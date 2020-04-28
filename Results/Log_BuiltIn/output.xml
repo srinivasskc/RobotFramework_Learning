@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.8.2 on win32)" generated="20200424 09:40:47.554" rpa="false">
+<suite id="s1" name="Log" source="C:\development\robot-scripts\amazon\Tests\log.robot">
+<test id="s1-t1" name="Print Log Name Message">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Srinivas Kadiyala</arg>
+</arguments>
+<msg timestamp="20200424 09:40:47.595" level="INFO">Srinivas Kadiyala</msg>
+<status status="PASS" starttime="20200424 09:40:47.595" endtime="20200424 09:40:47.595"></status>
+</kw>
+<status status="PASS" starttime="20200424 09:40:47.595" endtime="20200424 09:40:47.596" critical="yes"></status>
+</test>
+<test id="s1-t2" name="Print Log Age Message">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>29</arg>
+</arguments>
+<msg timestamp="20200424 09:40:47.597" level="INFO">29</msg>
+<status status="PASS" starttime="20200424 09:40:47.597" endtime="20200424 09:40:47.597"></status>
+</kw>
+<status status="PASS" starttime="20200424 09:40:47.597" endtime="20200424 09:40:47.598" critical="yes"></status>
+</test>
+<test id="s1-t3" name="Print Log Gender Message">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Male</arg>
+</arguments>
+<msg timestamp="20200424 09:40:47.600" level="INFO">Male</msg>
+<status status="PASS" starttime="20200424 09:40:47.600" endtime="20200424 09:40:47.600"></status>
+</kw>
+<status status="PASS" starttime="20200424 09:40:47.599" endtime="20200424 09:40:47.601" critical="yes"></status>
+</test>
+<doc>This is about Log BuiltIn Keyword</doc>
+<status status="PASS" starttime="20200424 09:40:47.561" endtime="20200424 09:40:47.603"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0">Critical Tests</stat>
+<stat pass="3" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="0" id="s1" name="Log">Log</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

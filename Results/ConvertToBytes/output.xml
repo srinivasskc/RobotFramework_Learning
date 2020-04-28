@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2rc2 (Python 3.8.2 on win32)" generated="20200424 17:20:10.245" rpa="false">
+<suite id="s1" name="ConvertToBytes" source="C:\development\robot-scripts\amazon\Tests\ConvertToBytes.robot">
+<test id="s1-t1" name="Test Case 1">
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>083 114 105 110 105 118 097 115</arg>
+</arguments>
+<assign>
+<var>${a}</var>
+</assign>
+<msg timestamp="20200424 17:20:10.281" level="INFO">${a} = 083 114 105 110 105 118 097 115</msg>
+<status status="PASS" starttime="20200424 17:20:10.281" endtime="20200424 17:20:10.281"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${a}</arg>
+</arguments>
+<msg timestamp="20200424 17:20:10.282" level="INFO">083 114 105 110 105 118 097 115</msg>
+<status status="PASS" starttime="20200424 17:20:10.282" endtime="20200424 17:20:10.282"></status>
+</kw>
+<kw name="Convert To Bytes" library="BuiltIn">
+<doc>Converts the given ``input`` to bytes according to the ``input_type``.</doc>
+<arguments>
+<arg>${a}</arg>
+<arg>int</arg>
+</arguments>
+<assign>
+<var>${b}</var>
+</assign>
+<msg timestamp="20200424 17:20:10.283" level="INFO">${b} = Srinivas</msg>
+<status status="PASS" starttime="20200424 17:20:10.282" endtime="20200424 17:20:10.283"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${b}</arg>
+</arguments>
+<msg timestamp="20200424 17:20:10.283" level="INFO">Srinivas</msg>
+<status status="PASS" starttime="20200424 17:20:10.283" endtime="20200424 17:20:10.284"></status>
+</kw>
+<status status="PASS" starttime="20200424 17:20:10.280" endtime="20200424 17:20:10.284" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200424 17:20:10.250" endtime="20200424 17:20:10.286"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="ConvertToBytes">ConvertToBytes</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

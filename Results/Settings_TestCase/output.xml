@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.8.2 on win32)" generated="20200424 10:41:19.038" rpa="false">
+<suite id="s1" name="Settings TestCase" source="C:\development\robot-scripts\amazon\Tests\Settings_TestCase.robot">
+<kw name="Log" library="BuiltIn" type="setup">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Test Suite Start</arg>
+</arguments>
+<msg timestamp="20200424 10:41:19.076" level="INFO">Test Suite Start</msg>
+<status status="PASS" starttime="20200424 10:41:19.076" endtime="20200424 10:41:19.076"></status>
+</kw>
+<test id="s1-t1" name="Test Case 1">
+<kw name="Log" library="BuiltIn" type="setup">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Test Case 1 Start</arg>
+</arguments>
+<msg timestamp="20200424 10:41:19.077" level="INFO">Test Case 1 Start</msg>
+<status status="PASS" starttime="20200424 10:41:19.077" endtime="20200424 10:41:19.077"></status>
+</kw>
+<kw name="CommonLogMessage">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Srinivas</arg>
+</arguments>
+<msg timestamp="20200424 10:41:19.078" level="INFO">Srinivas</msg>
+<status status="PASS" starttime="20200424 10:41:19.078" endtime="20200424 10:41:19.078"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Kadiyala</arg>
+</arguments>
+<msg timestamp="20200424 10:41:19.079" level="INFO">Kadiyala</msg>
+<status status="PASS" starttime="20200424 10:41:19.078" endtime="20200424 10:41:19.079"></status>
+</kw>
+<status status="PASS" starttime="20200424 10:41:19.078" endtime="20200424 10:41:19.079"></status>
+</kw>
+<kw name="Log" library="BuiltIn" type="teardown">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Test Case 1 End</arg>
+</arguments>
+<msg timestamp="20200424 10:41:19.080" level="INFO">Test Case 1 End</msg>
+<status status="PASS" starttime="20200424 10:41:19.079" endtime="20200424 10:41:19.080"></status>
+</kw>
+<doc>This is test case level documentation</doc>
+<status status="PASS" starttime="20200424 10:41:19.076" endtime="20200424 10:41:19.080" critical="yes"></status>
+</test>
+<test id="s1-t2" name="Test Case 2">
+<kw name="Log" library="BuiltIn" type="setup">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Test Case Settings - Start</arg>
+</arguments>
+<msg timestamp="20200424 10:41:19.082" level="INFO">Test Case Settings - Start</msg>
+<status status="PASS" starttime="20200424 10:41:19.082" endtime="20200424 10:41:19.082"></status>
+</kw>
+<kw name="CommonLogMessage">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Srinivas</arg>
+</arguments>
+<msg timestamp="20200424 10:41:19.083" level="INFO">Srinivas</msg>
+<status status="PASS" starttime="20200424 10:41:19.083" endtime="20200424 10:41:19.083"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Kadiyala</arg>
+</arguments>
+<msg timestamp="20200424 10:41:19.083" level="INFO">Kadiyala</msg>
+<status status="PASS" starttime="20200424 10:41:19.083" endtime="20200424 10:41:19.083"></status>
+</kw>
+<status status="PASS" starttime="20200424 10:41:19.083" endtime="20200424 10:41:19.083"></status>
+</kw>
+<kw name="Log" library="BuiltIn" type="teardown">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Test Case Settings - End</arg>
+</arguments>
+<msg timestamp="20200424 10:41:19.084" level="INFO">Test Case Settings - End</msg>
+<status status="PASS" starttime="20200424 10:41:19.084" endtime="20200424 10:41:19.084"></status>
+</kw>
+<status status="PASS" starttime="20200424 10:41:19.082" endtime="20200424 10:41:19.084" critical="yes"></status>
+</test>
+<test id="s1-t3" name="Test Case 3">
+<kw name="Log" library="BuiltIn" type="setup">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Test Case Settings - Start</arg>
+</arguments>
+<msg timestamp="20200424 10:41:19.086" level="INFO">Test Case Settings - Start</msg>
+<status status="PASS" starttime="20200424 10:41:19.086" endtime="20200424 10:41:19.086"></status>
+</kw>
+<kw name="CommonLogMessage">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Srinivas</arg>
+</arguments>
+<msg timestamp="20200424 10:41:19.087" level="INFO">Srinivas</msg>
+<status status="PASS" starttime="20200424 10:41:19.087" endtime="20200424 10:41:19.087"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Kadiyala</arg>
+</arguments>
+<msg timestamp="20200424 10:41:19.087" level="INFO">Kadiyala</msg>
+<status status="PASS" starttime="20200424 10:41:19.087" endtime="20200424 10:41:19.087"></status>
+</kw>
+<status status="PASS" starttime="20200424 10:41:19.086" endtime="20200424 10:41:19.087"></status>
+</kw>
+<kw name="Log" library="BuiltIn" type="teardown">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Test Case Settings - End</arg>
+</arguments>
+<msg timestamp="20200424 10:41:19.088" level="INFO">Test Case Settings - End</msg>
+<status status="PASS" starttime="20200424 10:41:19.087" endtime="20200424 10:41:19.088"></status>
+</kw>
+<status status="PASS" starttime="20200424 10:41:19.085" endtime="20200424 10:41:19.088" critical="yes"></status>
+</test>
+<kw name="Log" library="BuiltIn" type="teardown">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Test Suite End</arg>
+</arguments>
+<msg timestamp="20200424 10:41:19.089" level="INFO">Test Suite End</msg>
+<status status="PASS" starttime="20200424 10:41:19.089" endtime="20200424 10:41:19.089"></status>
+</kw>
+<doc>This is about Test Setup and Test Teardown in Test Cases</doc>
+<status status="PASS" starttime="20200424 10:41:19.044" endtime="20200424 10:41:19.089"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0">Critical Tests</stat>
+<stat pass="3" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="0" id="s1" name="Settings TestCase">Settings TestCase</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

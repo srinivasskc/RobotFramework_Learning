@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.8.2 on win32)" generated="20200423 19:30:31.752" rpa="false">
+<suite id="s1" name="Locator" source="C:\development\robot-scripts\amazon\Tests\Locator.robot">
+<test id="s1-t1" name="User Should be able to search for Item to Checkout">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>http://amazon.in</arg>
+<arg>firefox</arg>
+</arguments>
+<msg timestamp="20200423 19:30:32.191" level="INFO">Opening browser 'firefox' to base url 'http://amazon.in'.</msg>
+<msg timestamp="20200423 19:30:32.195" level="INFO">Firefox driver log is always forced to to: C:\development\robot-scripts\amazon\Results\Firefox\Locator\geckodriver-18.log</msg>
+<status status="PASS" starttime="20200423 19:30:32.191" endtime="20200423 19:30:46.886"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200423 19:30:49.889" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200423 19:30:46.887" endtime="20200423 19:30:49.889"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>id=twotabsearchtextbox</arg>
+<arg>Gita</arg>
+</arguments>
+<msg timestamp="20200423 19:30:49.890" level="INFO">Typing text 'Gita' into text field 'id=twotabsearchtextbox'.</msg>
+<status status="PASS" starttime="20200423 19:30:49.889" endtime="20200423 19:30:49.954"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20200423 19:30:52.956" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20200423 19:30:49.955" endtime="20200423 19:30:52.956"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html/body/div[1]/header/div/div[1]/div[3]/div/form/div[2]/div/input</arg>
+</arguments>
+<msg timestamp="20200423 19:30:52.957" level="INFO">Clicking button 'xpath=/html/body/div[1]/header/div/div[1]/div[3]/div/form/div[2]/div/input'.</msg>
+<status status="PASS" starttime="20200423 19:30:52.956" endtime="20200423 19:30:55.064"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200423 19:30:57.072" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200423 19:30:55.064" endtime="20200423 19:30:57.072"></status>
+</kw>
+<kw name="Click Image" library="SeleniumLibrary">
+<doc>Clicks an image identified by ``locator``.</doc>
+<arguments>
+<arg>Bhagavad-gita As It Is</arg>
+</arguments>
+<msg timestamp="20200423 19:30:57.073" level="INFO">Clicking image 'Bhagavad-gita As It Is'.</msg>
+<status status="PASS" starttime="20200423 19:30:57.072" endtime="20200423 19:30:57.372"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>4s</arg>
+</arguments>
+<msg timestamp="20200423 19:31:01.376" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20200423 19:30:57.373" endtime="20200423 19:31:01.376"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>name=#ajax.add-to-ebooks-cart.x</arg>
+</arguments>
+<msg timestamp="20200423 19:31:01.377" level="INFO">Clicking button 'name=#ajax.add-to-ebooks-cart.x'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20200423 19:31:01.618" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-17.png"&gt;&lt;img src="selenium-screenshot-17.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200423 19:31:01.398" endtime="20200423 19:31:01.618"></status>
+</kw>
+<msg timestamp="20200423 19:31:01.624" level="FAIL">Button with locator 'name=#ajax.add-to-ebooks-cart.x' not found.</msg>
+<status status="FAIL" starttime="20200423 19:31:01.377" endtime="20200423 19:31:01.624"></status>
+</kw>
+<doc>This is search test</doc>
+<tags>
+<tag>smoke</tag>
+</tags>
+<status status="FAIL" starttime="20200423 19:30:32.190" endtime="20200423 19:31:01.625" critical="yes">Button with locator 'name=#ajax.add-to-ebooks-cart.x' not found.</status>
+</test>
+<doc>This is to identify the locators</doc>
+<status status="FAIL" starttime="20200423 19:30:31.758" endtime="20200423 19:31:01.628"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1">smoke</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Locator">Locator</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

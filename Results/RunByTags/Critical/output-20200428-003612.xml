@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2 (Python 3.8.2 on win32)" generated="20200428 00:36:12.846" rpa="false">
+<suite id="s1" name="RunByTags" source="C:\development\robot-scripts\MyProgram\Tests\RunByTags.robot">
+<kw name="suite_setup" type="setup">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Suite Setup</arg>
+</arguments>
+<msg timestamp="20200428 00:36:12.904" level="INFO">Suite Setup</msg>
+<status status="PASS" starttime="20200428 00:36:12.903" endtime="20200428 00:36:12.904"></status>
+</kw>
+<status status="PASS" starttime="20200428 00:36:12.903" endtime="20200428 00:36:12.904"></status>
+</kw>
+<test id="s1-t1" name="Test Case 1">
+<kw name="test_setup" type="setup">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Test Setup</arg>
+</arguments>
+<msg timestamp="20200428 00:36:12.907" level="INFO">Test Setup</msg>
+<status status="PASS" starttime="20200428 00:36:12.906" endtime="20200428 00:36:12.907"></status>
+</kw>
+<status status="PASS" starttime="20200428 00:36:12.906" endtime="20200428 00:36:12.907"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20200428 00:36:12.908" level="INFO">1</msg>
+<status status="PASS" starttime="20200428 00:36:12.908" endtime="20200428 00:36:12.908"></status>
+</kw>
+<kw name="test_teardown" type="teardown">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Test Teardown</arg>
+</arguments>
+<msg timestamp="20200428 00:36:12.910" level="INFO">Test Teardown</msg>
+<status status="PASS" starttime="20200428 00:36:12.909" endtime="20200428 00:36:12.910"></status>
+</kw>
+<status status="PASS" starttime="20200428 00:36:12.909" endtime="20200428 00:36:12.910"></status>
+</kw>
+<tags>
+<tag>Critical</tag>
+</tags>
+<status status="PASS" starttime="20200428 00:36:12.905" endtime="20200428 00:36:12.910" critical="yes"></status>
+</test>
+<test id="s1-t2" name="Test Case 2">
+<kw name="test_setup" type="setup">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Test Setup</arg>
+</arguments>
+<msg timestamp="20200428 00:36:12.913" level="INFO">Test Setup</msg>
+<status status="PASS" starttime="20200428 00:36:12.913" endtime="20200428 00:36:12.914"></status>
+</kw>
+<status status="PASS" starttime="20200428 00:36:12.912" endtime="20200428 00:36:12.914"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20200428 00:36:12.915" level="INFO">2</msg>
+<status status="PASS" starttime="20200428 00:36:12.914" endtime="20200428 00:36:12.915"></status>
+</kw>
+<kw name="test_teardown" type="teardown">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Test Teardown</arg>
+</arguments>
+<msg timestamp="20200428 00:36:12.917" level="INFO">Test Teardown</msg>
+<status status="PASS" starttime="20200428 00:36:12.916" endtime="20200428 00:36:12.917"></status>
+</kw>
+<status status="PASS" starttime="20200428 00:36:12.916" endtime="20200428 00:36:12.917"></status>
+</kw>
+<tags>
+<tag>Non-Critical</tag>
+</tags>
+<status status="PASS" starttime="20200428 00:36:12.912" endtime="20200428 00:36:12.917" critical="no"></status>
+</test>
+<test id="s1-t3" name="Test Case 3">
+<kw name="test_setup" type="setup">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Test Setup</arg>
+</arguments>
+<msg timestamp="20200428 00:36:12.921" level="INFO">Test Setup</msg>
+<status status="PASS" starttime="20200428 00:36:12.921" endtime="20200428 00:36:12.921"></status>
+</kw>
+<status status="PASS" starttime="20200428 00:36:12.920" endtime="20200428 00:36:12.922"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20200428 00:36:12.922" level="INFO">3</msg>
+<status status="PASS" starttime="20200428 00:36:12.922" endtime="20200428 00:36:12.923"></status>
+</kw>
+<kw name="test_teardown" type="teardown">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Test Teardown</arg>
+</arguments>
+<msg timestamp="20200428 00:36:12.924" level="INFO">Test Teardown</msg>
+<status status="PASS" starttime="20200428 00:36:12.924" endtime="20200428 00:36:12.924"></status>
+</kw>
+<status status="PASS" starttime="20200428 00:36:12.923" endtime="20200428 00:36:12.924"></status>
+</kw>
+<tags>
+<tag>Critical</tag>
+</tags>
+<status status="PASS" starttime="20200428 00:36:12.919" endtime="20200428 00:36:12.925" critical="yes"></status>
+</test>
+<kw name="suite_teardown" type="teardown">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Suite Teardown</arg>
+</arguments>
+<msg timestamp="20200428 00:36:12.927" level="INFO">Suite Teardown</msg>
+<status status="PASS" starttime="20200428 00:36:12.927" endtime="20200428 00:36:12.927"></status>
+</kw>
+<status status="PASS" starttime="20200428 00:36:12.927" endtime="20200428 00:36:12.928"></status>
+</kw>
+<status status="PASS" starttime="20200428 00:36:12.853" endtime="20200428 00:36:12.928"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0">Critical Tests</stat>
+<stat pass="3" fail="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="2" fail="0" info="critical">Critical</stat>
+<stat pass="1" fail="0">Non-Critical</stat>
+</tag>
+<suite>
+<stat pass="3" fail="0" id="s1" name="RunByTags">RunByTags</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

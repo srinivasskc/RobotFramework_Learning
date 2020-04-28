@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2rc2 (Python 3.8.2 on win32)" generated="20200424 17:12:31.031" rpa="false">
+<suite id="s1" name="ConvertToBoolean" source="C:\development\robot-scripts\amazon\Tests\ConvertToBoolean.robot">
+<test id="s1-t1" name="Test Case 1">
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>tRue</arg>
+</arguments>
+<assign>
+<var>${a}</var>
+</assign>
+<msg timestamp="20200424 17:12:31.072" level="INFO">${a} = tRue</msg>
+<status status="PASS" starttime="20200424 17:12:31.071" endtime="20200424 17:12:31.072"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${a}</arg>
+</arguments>
+<msg timestamp="20200424 17:12:31.073" level="INFO">tRue</msg>
+<status status="PASS" starttime="20200424 17:12:31.073" endtime="20200424 17:12:31.073"></status>
+</kw>
+<kw name="Convert To Boolean" library="BuiltIn">
+<doc>Converts the given item to Boolean true or false.</doc>
+<arguments>
+<arg>${a}</arg>
+</arguments>
+<assign>
+<var>${b}</var>
+</assign>
+<msg timestamp="20200424 17:12:31.074" level="INFO">${b} = True</msg>
+<status status="PASS" starttime="20200424 17:12:31.074" endtime="20200424 17:12:31.074"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${b}</arg>
+</arguments>
+<msg timestamp="20200424 17:12:31.075" level="INFO">True</msg>
+<status status="PASS" starttime="20200424 17:12:31.075" endtime="20200424 17:12:31.075"></status>
+</kw>
+<status status="PASS" starttime="20200424 17:12:31.070" endtime="20200424 17:12:31.076" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200424 17:12:31.038" endtime="20200424 17:12:31.078"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="ConvertToBoolean">ConvertToBoolean</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

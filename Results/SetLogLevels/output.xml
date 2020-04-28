@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2rc2 (Python 3.8.2 on win32)" generated="20200425 13:32:33.668" rpa="false">
+<suite id="s1" name="SetLogLevels" source="C:\development\robot-scripts\amazon\Tests\SetLogLevels.robot">
+<test id="s1-t1" name="Test Case 1">
+<kw name="Set Log Level" library="BuiltIn">
+<doc>Sets the log threshold to the specified level and returns the old level.</doc>
+<arguments>
+<arg>INFO</arg>
+</arguments>
+<msg timestamp="20200425 13:32:33.719" level="INFO">Log level changed from INFO to INFO.</msg>
+<status status="PASS" starttime="20200425 13:32:33.719" endtime="20200425 13:32:33.720"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>This is info log</arg>
+<arg>INFO</arg>
+</arguments>
+<msg timestamp="20200425 13:32:33.720" level="INFO">This is info log</msg>
+<status status="PASS" starttime="20200425 13:32:33.720" endtime="20200425 13:32:33.720"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>&lt;h1&gt;This is info log with Html&lt;/h1&gt;</arg>
+<arg>HTML</arg>
+</arguments>
+<msg timestamp="20200425 13:32:33.721" level="INFO" html="yes">&lt;h1&gt;This is info log with Html&lt;/h1&gt;</msg>
+<status status="PASS" starttime="20200425 13:32:33.720" endtime="20200425 13:32:33.721"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>This is WARN log</arg>
+<arg>WARN</arg>
+</arguments>
+<msg timestamp="20200425 13:32:33.722" level="WARN">This is WARN log</msg>
+<status status="PASS" starttime="20200425 13:32:33.721" endtime="20200425 13:32:33.723"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>This is ERROR Log</arg>
+<arg>ERROR</arg>
+</arguments>
+<msg timestamp="20200425 13:32:33.724" level="ERROR">This is ERROR Log</msg>
+<status status="PASS" starttime="20200425 13:32:33.723" endtime="20200425 13:32:33.725"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>This is TRACE Log</arg>
+<arg>TRACE</arg>
+</arguments>
+<status status="PASS" starttime="20200425 13:32:33.725" endtime="20200425 13:32:33.726"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>This is DEBUG Log</arg>
+<arg>DEBUG</arg>
+</arguments>
+<status status="PASS" starttime="20200425 13:32:33.727" endtime="20200425 13:32:33.727"></status>
+</kw>
+<kw name="Set Log Level" library="BuiltIn">
+<doc>Sets the log threshold to the specified level and returns the old level.</doc>
+<arguments>
+<arg>NONE</arg>
+</arguments>
+<status status="PASS" starttime="20200425 13:32:33.728" endtime="20200425 13:32:33.728"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>This is NONE Log</arg>
+</arguments>
+<status status="PASS" starttime="20200425 13:32:33.729" endtime="20200425 13:32:33.730"></status>
+</kw>
+<status status="PASS" starttime="20200425 13:32:33.718" endtime="20200425 13:32:33.730" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200425 13:32:33.676" endtime="20200425 13:32:33.732"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="SetLogLevels">SetLogLevels</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20200425 13:32:33.722" level="WARN">This is WARN log</msg>
+<msg timestamp="20200425 13:32:33.724" level="ERROR">This is ERROR Log</msg>
+</errors>
+</robot>

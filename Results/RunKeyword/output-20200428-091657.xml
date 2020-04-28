@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2 (Python 3.8.2 on win32)" generated="20200428 09:16:58.020" rpa="false">
+<suite id="s1" name="BeforeExtResTC1" source="C:\development\robot-scripts\MyProgram\Tests\BeforeExtResources\BeforeExtResTC1.robot">
+<test id="s1-t1" name="Test Case 1">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>RunKeyword From BeforeExtResTC2 File</arg>
+</arguments>
+<msg timestamp="20200428 09:16:58.069" level="INFO">RunKeyword From BeforeExtResTC2 File</msg>
+<status status="PASS" starttime="20200428 09:16:58.069" endtime="20200428 09:16:58.069"></status>
+</kw>
+<kw name="Run Keyword" library="BuiltIn">
+<doc>Executes the given keyword with the given arguments.</doc>
+<arguments>
+<arg>Keyword2</arg>
+</arguments>
+<kw name="Keyword2">
+<msg timestamp="20200428 09:16:58.073" level="FAIL">No keyword with name 'Keyword2' found. Did you mean:
+    BuiltIn.Run Keyword</msg>
+<status status="FAIL" starttime="20200428 09:16:58.072" endtime="20200428 09:16:58.073"></status>
+</kw>
+<status status="FAIL" starttime="20200428 09:16:58.070" endtime="20200428 09:16:58.073"></status>
+</kw>
+<status status="FAIL" starttime="20200428 09:16:58.068" endtime="20200428 09:16:58.073" critical="yes">No keyword with name 'Keyword2' found. Did you mean:
+    BuiltIn.Run Keyword</status>
+</test>
+<status status="FAIL" starttime="20200428 09:16:58.030" endtime="20200428 09:16:58.075"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="BeforeExtResTC1">BeforeExtResTC1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

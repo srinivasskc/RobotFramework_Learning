@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2rc2 (Python 3.8.2 on win32)" generated="20200427 09:46:32.997" rpa="false">
+<suite id="s1" name="ListVariables" source="C:\development\robot-scripts\amazon\Tests\ListVariables.robot">
+<test id="s1-t1" name="Test Case 1">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${list1[1]}</arg>
+</arguments>
+<msg timestamp="20200427 09:46:33.041" level="INFO">2</msg>
+<status status="PASS" starttime="20200427 09:46:33.040" endtime="20200427 09:46:33.041"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${list1[0]}</arg>
+</arguments>
+<msg timestamp="20200427 09:46:33.041" level="INFO">1</msg>
+<status status="PASS" starttime="20200427 09:46:33.041" endtime="20200427 09:46:33.041"></status>
+</kw>
+<doc>Test Case 1 - Import List Variables</doc>
+<status status="PASS" starttime="20200427 09:46:33.039" endtime="20200427 09:46:33.042" critical="yes"></status>
+</test>
+<test id="s1-t2" name="Test Case 2">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${list1[4]}</arg>
+</arguments>
+<msg timestamp="20200427 09:46:33.045" level="INFO">5</msg>
+<status status="PASS" starttime="20200427 09:46:33.045" endtime="20200427 09:46:33.045"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${list1[3]}</arg>
+</arguments>
+<msg timestamp="20200427 09:46:33.046" level="INFO">4</msg>
+<status status="PASS" starttime="20200427 09:46:33.045" endtime="20200427 09:46:33.046"></status>
+</kw>
+<doc>Test Case 2 - Import List Variables</doc>
+<status status="PASS" starttime="20200427 09:46:33.044" endtime="20200427 09:46:33.046" critical="yes"></status>
+</test>
+<doc>Importing List Variables Globally</doc>
+<status status="PASS" starttime="20200427 09:46:33.004" endtime="20200427 09:46:33.048"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0">Critical Tests</stat>
+<stat pass="2" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" id="s1" name="ListVariables">ListVariables</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

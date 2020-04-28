@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.8.2 on win32)" generated="20200424 09:46:41.020" rpa="false">
+<suite id="s1" name="Keywords" source="C:\development\robot-scripts\amazon\Tests\keywords.robot">
+<test id="s1-t1" name="Print Name of Employee">
+<kw name="NamesOfEmployees">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Srinivas Kadiyala</arg>
+</arguments>
+<msg timestamp="20200424 09:46:41.068" level="INFO">Srinivas Kadiyala</msg>
+<status status="PASS" starttime="20200424 09:46:41.068" endtime="20200424 09:46:41.069"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Kadiyala Srinivas</arg>
+</arguments>
+<msg timestamp="20200424 09:46:41.069" level="INFO">Kadiyala Srinivas</msg>
+<status status="PASS" starttime="20200424 09:46:41.069" endtime="20200424 09:46:41.069"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Mark Taylor</arg>
+</arguments>
+<msg timestamp="20200424 09:46:41.069" level="INFO">Mark Taylor</msg>
+<status status="PASS" starttime="20200424 09:46:41.069" endtime="20200424 09:46:41.069"></status>
+</kw>
+<status status="PASS" starttime="20200424 09:46:41.068" endtime="20200424 09:46:41.069"></status>
+</kw>
+<status status="PASS" starttime="20200424 09:46:41.067" endtime="20200424 09:46:41.070" critical="yes"></status>
+</test>
+<test id="s1-t2" name="Print Age of Employee">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>29</arg>
+</arguments>
+<msg timestamp="20200424 09:46:41.072" level="INFO">29</msg>
+<status status="PASS" starttime="20200424 09:46:41.072" endtime="20200424 09:46:41.072"></status>
+</kw>
+<status status="PASS" starttime="20200424 09:46:41.071" endtime="20200424 09:46:41.072" critical="yes"></status>
+</test>
+<test id="s1-t3" name="Print Gender of Employee">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Male</arg>
+</arguments>
+<msg timestamp="20200424 09:46:41.075" level="INFO">Male</msg>
+<status status="PASS" starttime="20200424 09:46:41.074" endtime="20200424 09:46:41.075"></status>
+</kw>
+<status status="PASS" starttime="20200424 09:46:41.074" endtime="20200424 09:46:41.075" critical="yes"></status>
+</test>
+<doc>This is about Log BuiltIn Keyword</doc>
+<status status="PASS" starttime="20200424 09:46:41.028" endtime="20200424 09:46:41.076"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0">Critical Tests</stat>
+<stat pass="3" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="0" id="s1" name="Keywords">Keywords</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
