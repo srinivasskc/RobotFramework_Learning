@@ -118,8 +118,30 @@ INFO:4 of 4: Capturing keyword metrics...
 INFO:Results file created successfully and can be found at C:\development\robot-scripts\Project\results\Chrome\metrics-20200427-095742.html <br>
 
 # Robot Framework - ScreenCapLibrary
-
 pip install --upgrade robotframework-screencaplibrary
-
 https://github.com/mihaiparvu/ScreenCapLibrary
 
+# PIP Freeze
+beautifulsoup4==4.9.0
+furl==2.1.0
+mss==5.0.0
+numpy==1.18.3
+opencv-python==4.2.0.34
+orderedmultidict==1.0.1
+Pillow==7.1.1
+Pygments==2.6.1
+Pypubsub==4.0.3
+pywin32==227
+robotframework==3.2
+robotframework-lsp==0.0.9
+robotframework-metrics==3.1.6
+robotframework-ride==1.7.4.1
+robotframework-screencaplibrary==1.3.2
+robotframework-seleniumlibrary==4.3.0
+robotframework-seleniumtestability==0.9.2
+selenium==3.141.0
+six==1.14.0
+soupsieve==2.0
+urllib3==1.25.9
+wrapt==1.12.1
+wxPython==4.0.7.post2
