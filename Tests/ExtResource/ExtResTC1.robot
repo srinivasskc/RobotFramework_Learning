@@ -1,8 +1,6 @@
 *** Settings ***
 Resource    ../../Resources/UserKeywords.robot
 
-*** Settings ***
-
 *** Variables ***
 
 *** Test Cases ***
