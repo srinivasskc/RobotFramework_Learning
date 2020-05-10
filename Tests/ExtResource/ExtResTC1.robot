@@ -1,6 +1,8 @@
 *** Settings ***
 Resource    ../../Resources/UserKeywords.robot
 
+*** Settings ***
+
 
 *** Variables ***
 
