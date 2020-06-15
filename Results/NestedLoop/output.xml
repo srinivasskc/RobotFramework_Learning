@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.1 (Python 3.8.2 on win32)" generated="20200513 00:22:57.697" rpa="false">
+<suite id="s1" name="Nestedforloops" source="C:\development\robot-scripts\MyProgram\Tests\Loops\nestedforloops.robot">
+<test id="s1-t1" name="TC1">
+<kw name="${i} IN RANGE [ 1 | 10 ]" type="for">
+<kw name="${i} = 1" type="foritem">
+<kw name="F1">
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<kw name="${j} IN RANGE [ 11 14 ]" type="for">
+<msg timestamp="20200513 00:22:57.755" level="FAIL">Converting FOR IN RANGE values failed: SyntaxError: unexpected EOF while parsing (&lt;string&gt;, line 1).</msg>
+<status status="FAIL" starttime="20200513 00:22:57.755" endtime="20200513 00:22:57.755"></status>
+</kw>
+<status status="FAIL" starttime="20200513 00:22:57.754" endtime="20200513 00:22:57.756"></status>
+</kw>
+<status status="FAIL" starttime="20200513 00:22:57.754" endtime="20200513 00:22:57.756"></status>
+</kw>
+<status status="FAIL" starttime="20200513 00:22:57.753" endtime="20200513 00:22:57.756"></status>
+</kw>
+<status status="FAIL" starttime="20200513 00:22:57.753" endtime="20200513 00:22:57.757" critical="yes">Converting FOR IN RANGE values failed: SyntaxError: unexpected EOF while parsing (&lt;string&gt;, line 1).</status>
+</test>
+<status status="FAIL" starttime="20200513 00:22:57.704" endtime="20200513 00:22:57.759"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Nestedforloops">Nestedforloops</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.1 (Python 3.8.2 on win32)" generated="20200520 09:08:57.583" rpa="false">
+<suite id="s1" name="SeleniumLibraryMouseDownLink" source="C:\development\robot-scripts\MyProgram\Tests\SeleniumRobot\SeleniumLibraryMouseDownLink.robot">
+<test id="s1-t1" name="TC1">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://the-internet.herokuapp.com/</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200520 09:08:58.069" level="INFO">Opening browser 'chrome' to base url 'https://the-internet.herokuapp.com/'.</msg>
+<status status="PASS" starttime="20200520 09:08:58.069" endtime="20200520 09:09:04.329"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200520 09:09:06.331" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200520 09:09:04.329" endtime="20200520 09:09:06.331"></status>
+</kw>
+<kw name="Mouse Down On Link" library="SeleniumLibrary">
+<doc>Simulates a mouse down event on a link identified by ``locator``.</doc>
+<arguments>
+<arg>//a[@href="http://elementalselenium.com/"]</arg>
+</arguments>
+<status status="PASS" starttime="20200520 09:09:06.332" endtime="20200520 09:09:06.643"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10s</arg>
+</arguments>
+<msg timestamp="20200520 09:09:16.645" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20200520 09:09:06.644" endtime="20200520 09:09:16.645"></status>
+</kw>
+<kw name="Close All Browsers" library="SeleniumLibrary" type="teardown">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20200520 09:09:16.646" endtime="20200520 09:09:18.876"></status>
+</kw>
+<status status="PASS" starttime="20200520 09:08:58.068" endtime="20200520 09:09:18.878" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200520 09:08:57.590" endtime="20200520 09:09:18.881"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="SeleniumLibraryMouseDownLink">SeleniumLibraryMouseDownLink</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

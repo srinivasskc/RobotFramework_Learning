@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.1 (Python 3.8.2 on win32)" generated="20200516 00:17:08.129" rpa="false">
+<suite id="s1" name="SeleniumLibrary Day01" source="C:\development\robot-scripts\MyProgram\Tests\SeleniumRobot\SeleniumLibrary_Day01.robot">
+<test id="s1-t1" name="TestCase1">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://the-internet.herokuapp.com/</arg>
+<arg>edge</arg>
+</arguments>
+<msg timestamp="20200516 00:17:08.451" level="INFO">Opening browser 'edge' to base url 'https://the-internet.herokuapp.com/'.</msg>
+<status status="PASS" starttime="20200516 00:17:08.450" endtime="20200516 00:17:13.813"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://a[@href="/abtest"]</arg>
+</arguments>
+<msg timestamp="20200516 00:17:13.814" level="INFO">Clicking element 'xpath://a[@href="/abtest"]'.</msg>
+<status status="PASS" starttime="20200516 00:17:13.813" endtime="20200516 00:17:14.080"></status>
+</kw>
+<kw name="Get Text" library="SeleniumLibrary">
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://h3[contains(text(),'A')]</arg>
+</arguments>
+<assign>
+<var>${title}</var>
+</assign>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20200516 00:17:14.477" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-26.png"&gt;&lt;img src="selenium-screenshot-26.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200516 00:17:14.308" endtime="20200516 00:17:14.477"></status>
+</kw>
+<msg timestamp="20200516 00:17:14.485" level="FAIL">Element with locator 'xpath://h3[contains(text(),'A')]' not found.</msg>
+<status status="FAIL" starttime="20200516 00:17:14.082" endtime="20200516 00:17:14.485"></status>
+</kw>
+<status status="FAIL" starttime="20200516 00:17:08.448" endtime="20200516 00:17:14.486" critical="yes">Element with locator 'xpath://h3[contains(text(),'A')]' not found.</status>
+</test>
+<status status="FAIL" starttime="20200516 00:17:08.135" endtime="20200516 00:17:14.489"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="SeleniumLibrary Day01">SeleniumLibrary Day01</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

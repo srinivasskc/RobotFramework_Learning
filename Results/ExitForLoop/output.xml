@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.1 (Python 3.8.2 on win32)" generated="20200512 23:37:04.805" rpa="false">
+<suite id="s1" name="Exitforloop" source="C:\development\robot-scripts\MyProgram\Tests\Loops\exitforloop.robot">
+<test id="s1-t1" name="TC1">
+<kw name="Create List" library="BuiltIn">
+<doc>Returns a list containing given items.</doc>
+<arguments>
+<arg>1 2 3 4 5</arg>
+</arguments>
+<assign>
+<var>@{a}</var>
+</assign>
+<msg timestamp="20200512 23:37:04.841" level="INFO">@{a} = [ 1 2 3 4 5 ]</msg>
+<status status="PASS" starttime="20200512 23:37:04.841" endtime="20200512 23:37:04.841"></status>
+</kw>
+<kw name="${i} IN [ @{a} ]" type="for">
+<kw name="${i} = 1 2 3 4 5" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<status status="PASS" starttime="20200512 23:37:04.842" endtime="20200512 23:37:04.843"></status>
+</kw>
+<kw name="Exit For Loop" library="BuiltIn">
+<doc>Stops executing the enclosing for loop.</doc>
+<msg timestamp="20200512 23:37:04.843" level="INFO">Exiting for loop altogether.</msg>
+<status status="PASS" starttime="20200512 23:37:04.843" endtime="20200512 23:37:04.843"></status>
+</kw>
+<status status="PASS" starttime="20200512 23:37:04.842" endtime="20200512 23:37:04.843"></status>
+</kw>
+<status status="PASS" starttime="20200512 23:37:04.842" endtime="20200512 23:37:04.843"></status>
+</kw>
+<status status="PASS" starttime="20200512 23:37:04.841" endtime="20200512 23:37:04.844" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200512 23:37:04.810" endtime="20200512 23:37:04.845"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Exitforloop">Exitforloop</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,135 @@
+lsp: 2020-05-13 21:58:38 UTC pid: 7332 - MainThread - EXCEPTION - robotframework_ls.server_api.server
+Error collecting errors.
+
+Traceback (most recent call last):
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\server_api\server.py", line 85, in m_lint
+    errors.extend(code_analysis.collect_analysis_errors(completion_context))
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\code_analysis.py", line 107, in collect_analysis_errors
+    collect_keywords(completion_context, collector)
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\collect_keywords.py", line 335, in collect_keywords
+    _collect_following_imports(completion_context, collector)
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\collect_keywords.py", line 273, in _collect_following_imports
+    _collect_libraries_keywords(completion_context, collector)
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\collect_keywords.py", line 231, in _collect_libraries_keywords
+    library_doc = libspec_manager.get_library_info(
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\libspec_manager.py", line 452, in get_library_info
+    libname_lower = libname.lower()
+AttributeError: 'NoneType' object has no attribute 'lower'
+lsp: 2020-05-13 21:58:44 UTC pid: 7332 - MainThread - EXCEPTION - robotframework_ls.impl.libspec_manager
+Error creating libspec: Sele. Output:
+Importing test library 'Sele' failed: ModuleNotFoundError: No module named 'Sele'
+
+Traceback (most recent call last):
+
+  None
+
+PYTHONPATH:
+
+  c:\development\robot-scripts\MyProgram\Tests\SeleniumRobot
+
+  c:\development\robot-scripts\MyProgram\Tests\SeleniumRobot
+
+  c:\users\skadiyala\appdata\local\programs\python\python38-32\python38.zip
+
+  c:\users\skadiyala\appdata\local\programs\python\python38-32\DLLs
+
+  c:\users\skadiyala\appdata\local\programs\python\python38-32\lib
+
+  c:\users\skadiyala\appdata\local\programs\python\python38-32
+
+  C:\Users\skadiyala\AppData\Roaming\Python\Python38\site-packages
+
+  c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages
+
+  c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\win32
+
+  c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\win32\lib
+
+  c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\Pythonwin
+
+
+
+Try --help for usage information.
+
+
+
+Traceback (most recent call last):
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\libspec_manager.py", line 407, in _create_libspec
+    subprocess.check_output(
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['c:\\users\\skadiyala\\appdata\\local\\programs\\python\\python38-32\\python.exe', '-m', 'robot.libdoc', '--format', 'XML:HTML', '-P', 'c:\\development\\robot-scripts\\MyProgram\\Tests\\SeleniumRobot', 'Sele', 'C:\\Users\\skadiyala\\robotframework_ls\\libspec\\d1b65505_3.2.1\\user\\Sele.libspec']' returned non-zero exit status 252.
+lsp: 2020-05-13 21:58:46 UTC pid: 7332 - MainThread - EXCEPTION - robotframework_ls.impl.libspec_manager
+Error creating libspec: Selenium. Output:
+Importing test library 'Selenium' failed: ModuleNotFoundError: No module named 'Selenium'
+
+Traceback (most recent call last):
+
+  None
+
+PYTHONPATH:
+
+  c:\development\robot-scripts\MyProgram\Tests\SeleniumRobot
+
+  c:\development\robot-scripts\MyProgram\Tests\SeleniumRobot
+
+  c:\users\skadiyala\appdata\local\programs\python\python38-32\python38.zip
+
+  c:\users\skadiyala\appdata\local\programs\python\python38-32\DLLs
+
+  c:\users\skadiyala\appdata\local\programs\python\python38-32\lib
+
+  c:\users\skadiyala\appdata\local\programs\python\python38-32
+
+  C:\Users\skadiyala\AppData\Roaming\Python\Python38\site-packages
+
+  c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages
+
+  c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\win32
+
+  c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\win32\lib
+
+  c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\Pythonwin
+
+
+
+Try --help for usage information.
+
+
+
+Traceback (most recent call last):
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\libspec_manager.py", line 407, in _create_libspec
+    subprocess.check_output(
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['c:\\users\\skadiyala\\appdata\\local\\programs\\python\\python38-32\\python.exe', '-m', 'robot.libdoc', '--format', 'XML:HTML', '-P', 'c:\\development\\robot-scripts\\MyProgram\\Tests\\SeleniumRobot', 'Selenium', 'C:\\Users\\skadiyala\\robotframework_ls\\libspec\\d1b65505_3.2.1\\user\\Selenium.libspec']' returned non-zero exit status 252.
+lsp: 2020-05-13 21:59:22 UTC pid: 7332 - MainThread - EXCEPTION - robotframework_ls.server_api.server
+Error collecting errors.
+
+Traceback (most recent call last):
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\server_api\server.py", line 85, in m_lint
+    errors.extend(code_analysis.collect_analysis_errors(completion_context))
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\code_analysis.py", line 107, in collect_analysis_errors
+    collect_keywords(completion_context, collector)
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\collect_keywords.py", line 335, in collect_keywords
+    _collect_following_imports(completion_context, collector)
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\collect_keywords.py", line 273, in _collect_following_imports
+    _collect_libraries_keywords(completion_context, collector)
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\collect_keywords.py", line 231, in _collect_libraries_keywords
+    library_doc = libspec_manager.get_library_info(
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\libspec_manager.py", line 452, in get_library_info
+    libname_lower = libname.lower()
+AttributeError: 'NoneType' object has no attribute 'lower'
+lsp: 2020-05-13 21:59:23 UTC pid: 7332 - MainThread - EXCEPTION - robotframework_ls.server_api.server
+Error collecting errors.
+
+Traceback (most recent call last):
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\server_api\server.py", line 85, in m_lint
+    errors.extend(code_analysis.collect_analysis_errors(completion_context))
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\code_analysis.py", line 107, in collect_analysis_errors
+    collect_keywords(completion_context, collector)
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\collect_keywords.py", line 335, in collect_keywords

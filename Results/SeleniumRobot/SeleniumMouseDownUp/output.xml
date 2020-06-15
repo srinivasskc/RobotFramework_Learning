@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.1 (Python 3.8.2 on win32)" generated="20200520 09:04:30.901" rpa="false">
+<suite id="s1" name="SeleniumLibraryMouseDownUp" source="C:\development\robot-scripts\MyProgram\Tests\SeleniumRobot\SeleniumLibraryMouseDownUp.robot">
+<test id="s1-t1" name="TC1">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://the-internet.herokuapp.com/</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200520 09:04:31.230" level="INFO">Opening browser 'chrome' to base url 'https://the-internet.herokuapp.com/'.</msg>
+<status status="PASS" starttime="20200520 09:04:31.230" endtime="20200520 09:04:37.021"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200520 09:04:39.024" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200520 09:04:37.022" endtime="20200520 09:04:39.024"></status>
+</kw>
+<kw name="Mouse Down" library="SeleniumLibrary">
+<doc>Simulates pressing the left mouse button on the element ``locator``.</doc>
+<arguments>
+<arg>//a[@href="http://elementalselenium.com/"]</arg>
+</arguments>
+<msg timestamp="20200520 09:04:39.026" level="INFO">Simulating Mouse Down on element '//a[@href="http://elementalselenium.com/"]'.</msg>
+<status status="PASS" starttime="20200520 09:04:39.025" endtime="20200520 09:04:39.333"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20200520 09:04:44.335" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200520 09:04:39.333" endtime="20200520 09:04:44.335"></status>
+</kw>
+<kw name="Mouse Up" library="SeleniumLibrary">
+<doc>Simulates releasing the left mouse button on the element ``locator``.</doc>
+<arguments>
+<arg>//a[@href="http://elementalselenium.com/"]</arg>
+</arguments>
+<msg timestamp="20200520 09:04:44.337" level="INFO">Simulating Mouse Up on element '//a[@href="http://elementalselenium.com/"]'.</msg>
+<status status="PASS" starttime="20200520 09:04:44.336" endtime="20200520 09:04:44.695"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20200520 09:04:49.697" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200520 09:04:44.696" endtime="20200520 09:04:49.697"></status>
+</kw>
+<kw name="Close All Browsers" library="SeleniumLibrary" type="teardown">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20200520 09:04:49.699" endtime="20200520 09:04:51.942"></status>
+</kw>
+<status status="PASS" starttime="20200520 09:04:31.228" endtime="20200520 09:04:51.943" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200520 09:04:30.906" endtime="20200520 09:04:51.947"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="SeleniumLibraryMouseDownUp">SeleniumLibraryMouseDownUp</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
