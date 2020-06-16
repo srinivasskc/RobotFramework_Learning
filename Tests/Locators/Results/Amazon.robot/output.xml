@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.1 (Python 3.8.2 on win32)" generated="20200601 16:40:32.354" rpa="false">
+<suite id="s1" name="Amazon" source="C:\development\robot-scripts\MyProgram\Tests\Locators\Amazon.robot">
+<test id="s1-t1" name="User must sign in to Amazon to Checkout">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>http://www.amazon.in</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200601 16:40:32.705" level="INFO">Opening browser 'chrome' to base url 'http://www.amazon.in'.</msg>
+<status status="PASS" starttime="20200601 16:40:32.705" endtime="20200601 16:40:37.843"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>20s</arg>
+</arguments>
+<msg timestamp="20200601 16:40:57.845" level="INFO">Slept 20 seconds</msg>
+<status status="PASS" starttime="20200601 16:40:37.843" endtime="20200601 16:40:57.845"></status>
+</kw>
+<kw name="Click Image" library="SeleniumLibrary">
+<doc>Clicks an image identified by ``locator``.</doc>
+<arguments>
+<arg>COVID-19 Donations</arg>
+</arguments>
+<msg timestamp="20200601 16:40:57.845" level="INFO">Clicking image 'COVID-19 Donations'.</msg>
+<status status="PASS" starttime="20200601 16:40:57.845" endtime="20200601 16:40:58.045"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10s</arg>
+</arguments>
+<msg timestamp="20200601 16:41:08.056" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20200601 16:40:58.045" endtime="20200601 16:41:08.056"></status>
+</kw>
+<kw name="Close All Browsers" library="SeleniumLibrary" type="teardown">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20200601 16:41:08.057" endtime="20200601 16:41:10.378"></status>
+</kw>
+<doc>This is basic test</doc>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="PASS" starttime="20200601 16:40:32.705" endtime="20200601 16:41:10.378" critical="yes"></status>
+</test>
+<doc>This is basic info about whole suite</doc>
+<status status="PASS" starttime="20200601 16:40:32.361" endtime="20200601 16:41:10.379"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0">Smoke</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Amazon">Amazon</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

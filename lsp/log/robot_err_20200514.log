@@ -1,0 +1,95 @@
+lsp: 2020-05-15 00:10:05 UTC pid: 18804 - MainThread - EXCEPTION - robotframework_ls.server_api.server
+Error collecting errors.
+
+Traceback (most recent call last):
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\server_api\server.py", line 85, in m_lint
+    errors.extend(code_analysis.collect_analysis_errors(completion_context))
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\code_analysis.py", line 110, in collect_analysis_errors
+    for keyword_usage_info in ast_utils.iter_keyword_usage_tokens(ast):
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\ast_utils.py", line 369, in iter_keyword_usage_tokens
+    token = _strip_token_bdd_prefix(node.get_token(Token.KEYWORD))
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\ast_utils.py", line 433, in _strip_token_bdd_prefix
+    text = normalize_robot_name(token.value)
+AttributeError: 'NoneType' object has no attribute 'value'
+lsp: 2020-05-15 00:10:06 UTC pid: 18804 - MainThread - EXCEPTION - robotframework_ls.server_api.server
+Error collecting errors.
+
+Traceback (most recent call last):
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\server_api\server.py", line 85, in m_lint
+    errors.extend(code_analysis.collect_analysis_errors(completion_context))
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\code_analysis.py", line 110, in collect_analysis_errors
+    for keyword_usage_info in ast_utils.iter_keyword_usage_tokens(ast):
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\ast_utils.py", line 369, in iter_keyword_usage_tokens
+    token = _strip_token_bdd_prefix(node.get_token(Token.KEYWORD))
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\ast_utils.py", line 433, in _strip_token_bdd_prefix
+    text = normalize_robot_name(token.value)
+AttributeError: 'NoneType' object has no attribute 'value'
+lsp: 2020-05-15 00:10:07 UTC pid: 18804 - MainThread - EXCEPTION - robotframework_ls.server_api.server
+Error collecting errors.
+
+Traceback (most recent call last):
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\server_api\server.py", line 85, in m_lint
+    errors.extend(code_analysis.collect_analysis_errors(completion_context))
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\code_analysis.py", line 110, in collect_analysis_errors
+    for keyword_usage_info in ast_utils.iter_keyword_usage_tokens(ast):
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\ast_utils.py", line 369, in iter_keyword_usage_tokens
+    token = _strip_token_bdd_prefix(node.get_token(Token.KEYWORD))
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\ast_utils.py", line 433, in _strip_token_bdd_prefix
+    text = normalize_robot_name(token.value)
+AttributeError: 'NoneType' object has no attribute 'value'
+lsp: 2020-05-15 00:10:08 UTC pid: 18804 - MainThread - EXCEPTION - robotframework_ls.server_api.server
+Error collecting errors.
+
+Traceback (most recent call last):
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\server_api\server.py", line 85, in m_lint
+    errors.extend(code_analysis.collect_analysis_errors(completion_context))
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\code_analysis.py", line 110, in collect_analysis_errors
+    for keyword_usage_info in ast_utils.iter_keyword_usage_tokens(ast):
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\ast_utils.py", line 369, in iter_keyword_usage_tokens
+    token = _strip_token_bdd_prefix(node.get_token(Token.KEYWORD))
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\ast_utils.py", line 433, in _strip_token_bdd_prefix
+    text = normalize_robot_name(token.value)
+AttributeError: 'NoneType' object has no attribute 'value'
+lsp: 2020-05-15 00:10:09 UTC pid: 18804 - MainThread - EXCEPTION - robotframework_ls.server_api.server
+Error collecting errors.
+
+Traceback (most recent call last):
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\server_api\server.py", line 85, in m_lint
+    errors.extend(code_analysis.collect_analysis_errors(completion_context))
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\code_analysis.py", line 110, in collect_analysis_errors
+    for keyword_usage_info in ast_utils.iter_keyword_usage_tokens(ast):
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\ast_utils.py", line 369, in iter_keyword_usage_tokens
+    token = _strip_token_bdd_prefix(node.get_token(Token.KEYWORD))
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\ast_utils.py", line 433, in _strip_token_bdd_prefix
+    text = normalize_robot_name(token.value)
+AttributeError: 'NoneType' object has no attribute 'value'
+lsp: 2020-05-15 00:10:11 UTC pid: 18804 - MainThread - EXCEPTION - robotframework_ls.server_api.server
+Error collecting errors.
+
+Traceback (most recent call last):
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\server_api\server.py", line 85, in m_lint
+    errors.extend(code_analysis.collect_analysis_errors(completion_context))
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\code_analysis.py", line 110, in collect_analysis_errors
+    for keyword_usage_info in ast_utils.iter_keyword_usage_tokens(ast):
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\ast_utils.py", line 369, in iter_keyword_usage_tokens
+    token = _strip_token_bdd_prefix(node.get_token(Token.KEYWORD))
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\ast_utils.py", line 433, in _strip_token_bdd_prefix
+    text = normalize_robot_name(token.value)
+AttributeError: 'NoneType' object has no attribute 'value'
+lsp: 2020-05-15 00:15:10 UTC pid: 18804 - MainThread - EXCEPTION - robotframework_ls.server_api.server
+Error collecting errors.
+
+Traceback (most recent call last):
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\server_api\server.py", line 85, in m_lint
+    errors.extend(code_analysis.collect_analysis_errors(completion_context))
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\code_analysis.py", line 110, in collect_analysis_errors
+    for keyword_usage_info in ast_utils.iter_keyword_usage_tokens(ast):
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\ast_utils.py", line 369, in iter_keyword_usage_tokens
+    token = _strip_token_bdd_prefix(node.get_token(Token.KEYWORD))
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\ast_utils.py", line 433, in _strip_token_bdd_prefix
+    text = normalize_robot_name(token.value)
+AttributeError: 'NoneType' object has no attribute 'value'
+lsp: 2020-05-15 00:23:12 UTC pid: 18804 - MainThread - EXCEPTION - robotframework_ls.jsonrpc.endpoint
+Failed to handle request 787
+
+Traceback (most recent call last):

@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.1 (Python 3.8.2 on win32)" generated="20200515 22:36:52.233" rpa="false">
+<suite id="s1" name="SeleniumLibraryForLoop Day2" source="C:\development\robot-scripts\MyProgram\Tests\SeleniumRobot\SeleniumLibraryForLoop_Day2.robot">
+<test id="s1-t1" name="TC1">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://the-internet.herokuapp.com/</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200515 22:36:52.560" level="INFO">Opening browser 'chrome' to base url 'https://the-internet.herokuapp.com/'.</msg>
+<status status="PASS" starttime="20200515 22:36:52.560" endtime="20200515 22:36:58.292"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://a[@href="/add_remove_elements/"]</arg>
+</arguments>
+<msg timestamp="20200515 22:36:58.293" level="INFO">Clicking element 'xpath://a[@href="/add_remove_elements/"]'.</msg>
+<status status="PASS" starttime="20200515 22:36:58.293" endtime="20200515 22:36:58.740"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10s</arg>
+</arguments>
+<msg timestamp="20200515 22:37:08.742" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20200515 22:36:58.741" endtime="20200515 22:37:08.742"></status>
+</kw>
+<kw name="${i} IN RANGE [ 1 | 6 ]" type="for">
+<kw name="${i} = 1" type="foritem">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://button[@onclick="addElement()"]</arg>
+</arguments>
+<msg timestamp="20200515 22:37:08.744" level="INFO">Clicking element 'xpath://button[@onclick="addElement()"]'.</msg>
+<status status="PASS" starttime="20200515 22:37:08.744" endtime="20200515 22:37:08.824"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200515 22:37:10.825" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 22:37:08.825" endtime="20200515 22:37:10.825"></status>
+</kw>
+<status status="PASS" starttime="20200515 22:37:08.743" endtime="20200515 22:37:10.825"></status>
+</kw>
+<kw name="${i} = 2" type="foritem">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://button[@onclick="addElement()"]</arg>
+</arguments>
+<msg timestamp="20200515 22:37:10.826" level="INFO">Clicking element 'xpath://button[@onclick="addElement()"]'.</msg>
+<status status="PASS" starttime="20200515 22:37:10.826" endtime="20200515 22:37:10.878"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200515 22:37:12.879" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 22:37:10.878" endtime="20200515 22:37:12.879"></status>
+</kw>
+<status status="PASS" starttime="20200515 22:37:10.825" endtime="20200515 22:37:12.879"></status>
+</kw>
+<kw name="${i} = 3" type="foritem">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://button[@onclick="addElement()"]</arg>
+</arguments>
+<msg timestamp="20200515 22:37:12.880" level="INFO">Clicking element 'xpath://button[@onclick="addElement()"]'.</msg>
+<status status="PASS" starttime="20200515 22:37:12.880" endtime="20200515 22:37:12.926"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200515 22:37:14.927" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 22:37:12.926" endtime="20200515 22:37:14.927"></status>
+</kw>
+<status status="PASS" starttime="20200515 22:37:12.879" endtime="20200515 22:37:14.927"></status>
+</kw>
+<kw name="${i} = 4" type="foritem">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://button[@onclick="addElement()"]</arg>
+</arguments>
+<msg timestamp="20200515 22:37:14.928" level="INFO">Clicking element 'xpath://button[@onclick="addElement()"]'.</msg>
+<status status="PASS" starttime="20200515 22:37:14.928" endtime="20200515 22:37:14.970"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200515 22:37:16.973" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 22:37:14.970" endtime="20200515 22:37:16.973"></status>
+</kw>
+<status status="PASS" starttime="20200515 22:37:14.927" endtime="20200515 22:37:16.973"></status>
+</kw>
+<kw name="${i} = 5" type="foritem">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://button[@onclick="addElement()"]</arg>
+</arguments>
+<msg timestamp="20200515 22:37:16.974" level="INFO">Clicking element 'xpath://button[@onclick="addElement()"]'.</msg>
+<status status="PASS" starttime="20200515 22:37:16.974" endtime="20200515 22:37:17.026"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200515 22:37:19.027" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 22:37:17.026" endtime="20200515 22:37:19.027"></status>
+</kw>
+<status status="PASS" starttime="20200515 22:37:16.973" endtime="20200515 22:37:19.027"></status>
+</kw>
+<status status="PASS" starttime="20200515 22:37:08.743" endtime="20200515 22:37:19.027"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10s</arg>
+</arguments>
+<msg timestamp="20200515 22:37:29.030" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20200515 22:37:19.028" endtime="20200515 22:37:29.030"></status>
+</kw>
+<kw name="${i} IN RANGE [ 1 | 6 ]" type="for">
+<kw name="${i} = 1" type="foritem">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://div[@id="elements"]/button[last()]</arg>
+</arguments>
+<msg timestamp="20200515 22:37:29.031" level="INFO">Clicking element 'xpath://div[@id="elements"]/button[last()]'.</msg>
+<status status="PASS" starttime="20200515 22:37:29.031" endtime="20200515 22:37:29.095"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200515 22:37:31.096" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 22:37:29.095" endtime="20200515 22:37:31.096"></status>
+</kw>
+<status status="PASS" starttime="20200515 22:37:29.031" endtime="20200515 22:37:31.096"></status>
+</kw>
+<kw name="${i} = 2" type="foritem">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://div[@id="elements"]/button[last()]</arg>
+</arguments>
+<msg timestamp="20200515 22:37:31.096" level="INFO">Clicking element 'xpath://div[@id="elements"]/button[last()]'.</msg>
+<status status="PASS" starttime="20200515 22:37:31.096" endtime="20200515 22:37:31.128"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200515 22:37:33.129" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 22:37:31.128" endtime="20200515 22:37:33.129"></status>
+</kw>
+<status status="PASS" starttime="20200515 22:37:31.096" endtime="20200515 22:37:33.129"></status>
+</kw>
+<kw name="${i} = 3" type="foritem">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://div[@id="elements"]/button[last()]</arg>
+</arguments>
+<msg timestamp="20200515 22:37:33.130" level="INFO">Clicking element 'xpath://div[@id="elements"]/button[last()]'.</msg>
+<status status="PASS" starttime="20200515 22:37:33.129" endtime="20200515 22:37:33.165"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200515 22:37:35.167" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 22:37:33.165" endtime="20200515 22:37:35.167"></status>
+</kw>
+<status status="PASS" starttime="20200515 22:37:33.129" endtime="20200515 22:37:35.167"></status>
+</kw>
+<kw name="${i} = 4" type="foritem">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://div[@id="elements"]/button[last()]</arg>
+</arguments>
+<msg timestamp="20200515 22:37:35.168" level="INFO">Clicking element 'xpath://div[@id="elements"]/button[last()]'.</msg>
+<status status="PASS" starttime="20200515 22:37:35.167" endtime="20200515 22:37:35.200"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200515 22:37:37.203" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 22:37:35.200" endtime="20200515 22:37:37.203"></status>
+</kw>
+<status status="PASS" starttime="20200515 22:37:35.167" endtime="20200515 22:37:37.203"></status>
+</kw>
+<kw name="${i} = 5" type="foritem">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://div[@id="elements"]/button[last()]</arg>
+</arguments>
+<msg timestamp="20200515 22:37:37.204" level="INFO">Clicking element 'xpath://div[@id="elements"]/button[last()]'.</msg>
+<status status="PASS" starttime="20200515 22:37:37.204" endtime="20200515 22:37:37.253"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200515 22:37:39.255" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 22:37:37.253" endtime="20200515 22:37:39.255"></status>
+</kw>
+<status status="PASS" starttime="20200515 22:37:37.203" endtime="20200515 22:37:39.255"></status>
+</kw>
+<status status="PASS" starttime="20200515 22:37:29.031" endtime="20200515 22:37:39.255"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10s</arg>
+</arguments>
+<msg timestamp="20200515 22:37:49.257" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20200515 22:37:39.255" endtime="20200515 22:37:49.257"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200515 22:37:49.258" endtime="20200515 22:37:51.492"></status>
+</kw>
+<status status="PASS" starttime="20200515 22:36:52.559" endtime="20200515 22:37:51.493" critical="yes"></status>
+</test>
+<test id="s1-t2" name="TC2">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://the-internet.herokuapp.com/</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200515 22:37:51.496" level="INFO">Opening browser 'chrome' to base url 'https://the-internet.herokuapp.com/'.</msg>
+<status status="PASS" starttime="20200515 22:37:51.496" endtime="20200515 22:37:57.473"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://a[@href="/add_remove_elements/"]</arg>
+</arguments>
+<msg timestamp="20200515 22:37:57.474" level="INFO">Clicking element 'xpath://a[@href="/add_remove_elements/"]'.</msg>
+<status status="PASS" starttime="20200515 22:37:57.473" endtime="20200515 22:37:57.917"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10s</arg>
+</arguments>
+<msg timestamp="20200515 22:38:07.920" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20200515 22:37:57.918" endtime="20200515 22:38:07.920"></status>
+</kw>
+<kw name="${i} IN RANGE [ 1 | 6 ]" type="for">
+<kw name="${i} = 1" type="foritem">
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://button[@onclick="addElement()"]</arg>
+</arguments>
+<msg timestamp="20200515 22:38:07.921" level="INFO">Clicking button 'xpath://button[@onclick="addElement()"]'.</msg>
+<status status="PASS" starttime="20200515 22:38:07.921" endtime="20200515 22:38:07.994"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200515 22:38:09.996" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 22:38:07.994" endtime="20200515 22:38:09.996"></status>
+</kw>
+<status status="PASS" starttime="20200515 22:38:07.921" endtime="20200515 22:38:09.996"></status>
+</kw>
+<kw name="${i} = 2" type="foritem">
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://button[@onclick="addElement()"]</arg>
+</arguments>
+<msg timestamp="20200515 22:38:09.996" level="INFO">Clicking button 'xpath://button[@onclick="addElement()"]'.</msg>
+<status status="PASS" starttime="20200515 22:38:09.996" endtime="20200515 22:38:10.051"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200515 22:38:12.054" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 22:38:10.051" endtime="20200515 22:38:12.054"></status>
+</kw>
+<status status="PASS" starttime="20200515 22:38:09.996" endtime="20200515 22:38:12.054"></status>
+</kw>
+<kw name="${i} = 3" type="foritem">
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://button[@onclick="addElement()"]</arg>
+</arguments>
+<msg timestamp="20200515 22:38:12.055" level="INFO">Clicking button 'xpath://button[@onclick="addElement()"]'.</msg>
+<status status="PASS" starttime="20200515 22:38:12.054" endtime="20200515 22:38:12.102"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200515 22:38:14.103" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 22:38:12.103" endtime="20200515 22:38:14.103"></status>
+</kw>
+<status status="PASS" starttime="20200515 22:38:12.054" endtime="20200515 22:38:14.103"></status>
+</kw>
+<kw name="${i} = 4" type="foritem">
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://button[@onclick="addElement()"]</arg>
+</arguments>
+<msg timestamp="20200515 22:38:14.104" level="INFO">Clicking button 'xpath://button[@onclick="addElement()"]'.</msg>
+<status status="PASS" starttime="20200515 22:38:14.103" endtime="20200515 22:38:14.165"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200515 22:38:16.167" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 22:38:14.166" endtime="20200515 22:38:16.167"></status>
+</kw>
+<status status="PASS" starttime="20200515 22:38:14.103" endtime="20200515 22:38:16.167"></status>
+</kw>
+<kw name="${i} = 5" type="foritem">
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://button[@onclick="addElement()"]</arg>
+</arguments>
+<msg timestamp="20200515 22:38:16.168" level="INFO">Clicking button 'xpath://button[@onclick="addElement()"]'.</msg>
+<status status="PASS" starttime="20200515 22:38:16.167" endtime="20200515 22:38:16.214"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200515 22:38:18.214" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 22:38:16.214" endtime="20200515 22:38:18.214"></status>
+</kw>
+<status status="PASS" starttime="20200515 22:38:16.167" endtime="20200515 22:38:18.214"></status>
+</kw>
+<status status="PASS" starttime="20200515 22:38:07.920" endtime="20200515 22:38:18.214"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10s</arg>
+</arguments>
+<msg timestamp="20200515 22:38:28.218" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20200515 22:38:18.215" endtime="20200515 22:38:28.218"></status>
+</kw>
+<kw name="${i} IN RANGE [ 1 | 6 ]" type="for">
+<kw name="${i} = 1" type="foritem">
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://div[@id="elements"]/button[last()]</arg>
+</arguments>
+<msg timestamp="20200515 22:38:28.219" level="INFO">Clicking button 'xpath://div[@id="elements"]/button[last()]'.</msg>
+<status status="PASS" starttime="20200515 22:38:28.219" endtime="20200515 22:38:28.289"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200515 22:38:30.290" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 22:38:28.289" endtime="20200515 22:38:30.290"></status>
+</kw>
+<status status="PASS" starttime="20200515 22:38:28.219" endtime="20200515 22:38:30.290"></status>
+</kw>
+<kw name="${i} = 2" type="foritem">
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://div[@id="elements"]/button[last()]</arg>
+</arguments>
+<msg timestamp="20200515 22:38:30.291" level="INFO">Clicking button 'xpath://div[@id="elements"]/button[last()]'.</msg>
+<status status="PASS" starttime="20200515 22:38:30.291" endtime="20200515 22:38:30.349"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200515 22:38:32.350" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 22:38:30.349" endtime="20200515 22:38:32.350"></status>
+</kw>
+<status status="PASS" starttime="20200515 22:38:30.290" endtime="20200515 22:38:32.350"></status>
+</kw>
+<kw name="${i} = 3" type="foritem">
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://div[@id="elements"]/button[last()]</arg>
+</arguments>
+<msg timestamp="20200515 22:38:32.353" level="INFO">Clicking button 'xpath://div[@id="elements"]/button[last()]'.</msg>
+<status status="PASS" starttime="20200515 22:38:32.352" endtime="20200515 22:38:32.443"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200515 22:38:34.445" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 22:38:32.443" endtime="20200515 22:38:34.445"></status>
+</kw>
+<status status="PASS" starttime="20200515 22:38:32.351" endtime="20200515 22:38:34.445"></status>
+</kw>
+<kw name="${i} = 4" type="foritem">
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://div[@id="elements"]/button[last()]</arg>
+</arguments>
+<msg timestamp="20200515 22:38:34.446" level="INFO">Clicking button 'xpath://div[@id="elements"]/button[last()]'.</msg>
+<status status="PASS" starttime="20200515 22:38:34.446" endtime="20200515 22:38:34.508"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200515 22:38:36.509" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 22:38:34.508" endtime="20200515 22:38:36.509"></status>
+</kw>
+<status status="PASS" starttime="20200515 22:38:34.445" endtime="20200515 22:38:36.509"></status>
+</kw>
+<kw name="${i} = 5" type="foritem">
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://div[@id="elements"]/button[last()]</arg>
+</arguments>
+<msg timestamp="20200515 22:38:36.510" level="INFO">Clicking button 'xpath://div[@id="elements"]/button[last()]'.</msg>
+<status status="PASS" starttime="20200515 22:38:36.509" endtime="20200515 22:38:36.577"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20200515 22:38:38.577" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200515 22:38:36.577" endtime="20200515 22:38:38.577"></status>
+</kw>
+<status status="PASS" starttime="20200515 22:38:36.509" endtime="20200515 22:38:38.577"></status>
+</kw>
+<status status="PASS" starttime="20200515 22:38:28.218" endtime="20200515 22:38:38.577"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10s</arg>
+</arguments>
+<msg timestamp="20200515 22:38:48.578" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20200515 22:38:38.577" endtime="20200515 22:38:48.578"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200515 22:38:48.579" endtime="20200515 22:38:50.791"></status>
+</kw>
+<status status="PASS" starttime="20200515 22:37:51.495" endtime="20200515 22:38:50.792" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200515 22:36:52.238" endtime="20200515 22:38:50.794"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0">Critical Tests</stat>
+<stat pass="2" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" id="s1" name="SeleniumLibraryForLoop Day2">SeleniumLibraryForLoop Day2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

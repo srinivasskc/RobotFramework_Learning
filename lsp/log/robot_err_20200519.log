@@ -1,0 +1,90 @@
+lsp: 2020-05-19 09:37:14 UTC pid: 22272 - MainThread - EXCEPTION - robotframework_ls.server_api.server
+Error collecting errors.
+
+Traceback (most recent call last):
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\server_api\server.py", line 85, in m_lint
+    errors.extend(code_analysis.collect_analysis_errors(completion_context))
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\code_analysis.py", line 107, in collect_analysis_errors
+    collect_keywords(completion_context, collector)
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\collect_keywords.py", line 335, in collect_keywords
+    _collect_following_imports(completion_context, collector)
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\collect_keywords.py", line 273, in _collect_following_imports
+    _collect_libraries_keywords(completion_context, collector)
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\collect_keywords.py", line 231, in _collect_libraries_keywords
+    library_doc = libspec_manager.get_library_info(
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\libspec_manager.py", line 452, in get_library_info
+    libname_lower = libname.lower()
+AttributeError: 'NoneType' object has no attribute 'lower'
+lsp: 2020-05-19 09:39:17 UTC pid: 22272 - MainThread - EXCEPTION - robotframework_ls.server_api.server
+Error collecting errors.
+
+Traceback (most recent call last):
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\server_api\server.py", line 85, in m_lint
+    errors.extend(code_analysis.collect_analysis_errors(completion_context))
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\code_analysis.py", line 110, in collect_analysis_errors
+    for keyword_usage_info in ast_utils.iter_keyword_usage_tokens(ast):
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\ast_utils.py", line 375, in iter_keyword_usage_tokens
+    node, token = _strip_node_and_token_bdd_prefix(node, Token.NAME)
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\ast_utils.py", line 413, in _strip_node_and_token_bdd_prefix
+    token = _strip_token_bdd_prefix(original_token)
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\ast_utils.py", line 433, in _strip_token_bdd_prefix
+    text = normalize_robot_name(token.value)
+AttributeError: 'NoneType' object has no attribute 'value'
+lsp: 2020-05-19 09:39:19 UTC pid: 22272 - MainThread - EXCEPTION - robotframework_ls.server_api.server
+Error collecting errors.
+
+Traceback (most recent call last):
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\server_api\server.py", line 85, in m_lint
+    errors.extend(code_analysis.collect_analysis_errors(completion_context))
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\code_analysis.py", line 110, in collect_analysis_errors
+    for keyword_usage_info in ast_utils.iter_keyword_usage_tokens(ast):
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\ast_utils.py", line 375, in iter_keyword_usage_tokens
+    node, token = _strip_node_and_token_bdd_prefix(node, Token.NAME)
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\ast_utils.py", line 413, in _strip_node_and_token_bdd_prefix
+    token = _strip_token_bdd_prefix(original_token)
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\ast_utils.py", line 433, in _strip_token_bdd_prefix
+    text = normalize_robot_name(token.value)
+AttributeError: 'NoneType' object has no attribute 'value'
+lsp: 2020-05-19 09:53:59 UTC pid: 22272 - MainThread - EXCEPTION - robotframework_ls.server_api.server
+Error collecting errors.
+
+Traceback (most recent call last):
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\server_api\server.py", line 85, in m_lint
+    errors.extend(code_analysis.collect_analysis_errors(completion_context))
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\code_analysis.py", line 107, in collect_analysis_errors
+    collect_keywords(completion_context, collector)
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\collect_keywords.py", line 335, in collect_keywords
+    _collect_following_imports(completion_context, collector)
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\collect_keywords.py", line 273, in _collect_following_imports
+    _collect_libraries_keywords(completion_context, collector)
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\collect_keywords.py", line 231, in _collect_libraries_keywords
+    library_doc = libspec_manager.get_library_info(
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\libspec_manager.py", line 452, in get_library_info
+    libname_lower = libname.lower()
+AttributeError: 'NoneType' object has no attribute 'lower'
+lsp: 2020-05-19 09:54:03 UTC pid: 22272 - MainThread - EXCEPTION - robotframework_ls.server_api.server
+Error collecting errors.
+
+Traceback (most recent call last):
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\server_api\server.py", line 85, in m_lint
+    errors.extend(code_analysis.collect_analysis_errors(completion_context))
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\code_analysis.py", line 107, in collect_analysis_errors
+    collect_keywords(completion_context, collector)
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\collect_keywords.py", line 335, in collect_keywords
+    _collect_following_imports(completion_context, collector)
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\collect_keywords.py", line 273, in _collect_following_imports
+    _collect_libraries_keywords(completion_context, collector)
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\collect_keywords.py", line 231, in _collect_libraries_keywords
+    library_doc = libspec_manager.get_library_info(
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\libspec_manager.py", line 452, in get_library_info
+    libname_lower = libname.lower()
+AttributeError: 'NoneType' object has no attribute 'lower'
+lsp: 2020-05-19 09:54:04 UTC pid: 22272 - MainThread - EXCEPTION - robotframework_ls.server_api.server
+Error collecting errors.
+
+Traceback (most recent call last):
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\server_api\server.py", line 85, in m_lint
+    errors.extend(code_analysis.collect_analysis_errors(completion_context))
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\code_analysis.py", line 107, in collect_analysis_errors
+    collect_keywords(completion_context, collector)
+  File "c:\users\skadiyala\appdata\local\programs\python\python38-32\lib\site-packages\robotframework_ls\impl\collect_keywords.py", line 335, in collect_keywords

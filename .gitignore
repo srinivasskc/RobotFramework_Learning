@@ -1,0 +1,9 @@
+
+*.log
+*.html
+*.xml
+*.log
+
+# Ignore IDE specific files
+.idea
+lsp

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.1 (Python 3.8.2 on win32)" generated="20200521 23:26:42.251" rpa="false">
+<suite id="s1" name="Conditionals" source="C:\development\robot-scripts\MyProgram\Tests\Conditionals">
+<suite id="s1-s1" name="Setvariable" source="C:\development\robot-scripts\MyProgram\Tests\Conditionals\setvariable.robot">
+<test id="s1-s1-t1" name="TC1">
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>True</arg>
+</arguments>
+<assign>
+<var>${cond}</var>
+</assign>
+<msg timestamp="20200521 23:26:42.290" level="INFO">${cond} = True</msg>
+<status status="PASS" starttime="20200521 23:26:42.290" endtime="20200521 23:26:42.290"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${cond}</arg>
+</arguments>
+<status status="PASS" starttime="20200521 23:26:42.290" endtime="20200521 23:26:42.291"></status>
+</kw>
+<status status="PASS" starttime="20200521 23:26:42.290" endtime="20200521 23:26:42.291" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200521 23:26:42.287" endtime="20200521 23:26:42.291"></status>
+</suite>
+<suite id="s1-s2" name="Setvariableif" source="C:\development\robot-scripts\MyProgram\Tests\Conditionals\setvariableif.robot">
+<test id="s1-s2-t1" name="TC1">
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>True</arg>
+</arguments>
+<assign>
+<var>${cond}</var>
+</assign>
+<msg timestamp="20200521 23:26:42.295" level="INFO">${cond} = True</msg>
+<status status="PASS" starttime="20200521 23:26:42.295" endtime="20200521 23:26:42.295"></status>
+</kw>
+<kw name="Set Variable If" library="BuiltIn">
+<doc>Sets variable based on the given condition.</doc>
+<arguments>
+<arg>${cond}==True</arg>
+<arg>10</arg>
+</arguments>
+<assign>
+<var>${a}</var>
+</assign>
+<msg timestamp="20200521 23:26:42.296" level="INFO">${a} = 10</msg>
+<status status="PASS" starttime="20200521 23:26:42.296" endtime="20200521 23:26:42.296"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${a}</arg>
+</arguments>
+<status status="PASS" starttime="20200521 23:26:42.296" endtime="20200521 23:26:42.296"></status>
+</kw>
+<status status="PASS" starttime="20200521 23:26:42.295" endtime="20200521 23:26:42.297" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200521 23:26:42.292" endtime="20200521 23:26:42.297"></status>
+</suite>
+<status status="PASS" starttime="20200521 23:26:42.257" endtime="20200521 23:26:42.298"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0">Critical Tests</stat>
+<stat pass="2" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" id="s1" name="Conditionals">Conditionals</stat>
+<stat pass="1" fail="0" id="s1-s1" name="Setvariable">Conditionals.Setvariable</stat>
+<stat pass="1" fail="0" id="s1-s2" name="Setvariableif">Conditionals.Setvariableif</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

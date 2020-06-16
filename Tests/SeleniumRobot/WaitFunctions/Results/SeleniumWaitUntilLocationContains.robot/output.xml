@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.1 (Python 3.8.2 on win32)" generated="20200527 09:31:32.240" rpa="false">
+<suite id="s1" name="SeleniumWaitUntilLocationContains" source="C:\development\robot-scripts\MyProgram\Tests\SeleniumRobot\WaitFunctions\SeleniumWaitUntilLocationContains.robot">
+<test id="s1-t1" name="Wait Until Location Contains Test Case">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://the-internet.herokuapp.com/</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200527 09:31:32.790" level="INFO">Opening browser 'chrome' to base url 'https://the-internet.herokuapp.com/'.</msg>
+<status status="PASS" starttime="20200527 09:31:32.790" endtime="20200527 09:31:39.092"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>//a[contains(text(),'Add')]</arg>
+</arguments>
+<msg timestamp="20200527 09:31:39.092" level="INFO">Clicking element '//a[contains(text(),'Add')]'.</msg>
+<status status="PASS" starttime="20200527 09:31:39.092" endtime="20200527 09:31:39.531"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20200527 09:31:44.532" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200527 09:31:39.531" endtime="20200527 09:31:44.532"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<doc>Waits until ``text`` appears on the current page.</doc>
+<arguments>
+<arg>Add/Remove Elements</arg>
+</arguments>
+<status status="PASS" starttime="20200527 09:31:44.532" endtime="20200527 09:31:44.545"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<arguments>
+<arg>//button[contains(text(),'Add Element')]</arg>
+</arguments>
+<status status="PASS" starttime="20200527 09:31:44.545" endtime="20200527 09:31:44.556"></status>
+</kw>
+<kw name="Wait Until Page Does Not Contain Element" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` disappears from the current page.</doc>
+<arguments>
+<arg>//button[@class='added-manually']</arg>
+</arguments>
+<status status="PASS" starttime="20200527 09:31:44.556" endtime="20200527 09:31:44.568"></status>
+</kw>
+<kw name="Close All Browsers" library="SeleniumLibrary" type="teardown">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20200527 09:31:44.568" endtime="20200527 09:31:46.817"></status>
+</kw>
+<status status="PASS" starttime="20200527 09:31:32.790" endtime="20200527 09:31:46.817" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200527 09:31:32.245" endtime="20200527 09:31:46.817"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="SeleniumWaitUntilLocationContains">SeleniumWaitUntilLocationContains</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

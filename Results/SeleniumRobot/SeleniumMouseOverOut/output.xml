@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.1 (Python 3.8.2 on win32)" generated="20200519 10:04:57.996" rpa="false">
+<suite id="s1" name="SeleniumLibraryMouseOverOut" source="C:\development\robot-scripts\MyProgram\Tests\SeleniumRobot\SeleniumLibraryMouseOverOut.robot">
+<test id="s1-t1" name="TC1">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://the-internet.herokuapp.com/</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200519 10:04:58.319" level="INFO">Opening browser 'chrome' to base url 'https://the-internet.herokuapp.com/'.</msg>
+<status status="PASS" starttime="20200519 10:04:58.319" endtime="20200519 10:05:04.009"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200519 10:05:04.010" endtime="20200519 10:05:05.146"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://a[@href="/upload"]</arg>
+</arguments>
+<msg timestamp="20200519 10:05:05.148" level="INFO">Clicking element 'xpath://a[@href="/upload"]'.</msg>
+<status status="PASS" starttime="20200519 10:05:05.147" endtime="20200519 10:05:05.820"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20200519 10:05:10.822" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200519 10:05:05.821" endtime="20200519 10:05:10.822"></status>
+</kw>
+<kw name="Reload Page" library="SeleniumLibrary">
+<doc>Simulates user reloading page.</doc>
+<status status="PASS" starttime="20200519 10:05:10.823" endtime="20200519 10:05:11.160"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20200519 10:05:16.162" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200519 10:05:11.161" endtime="20200519 10:05:16.162"></status>
+</kw>
+<kw name="Mouse Over" library="SeleniumLibrary">
+<doc>Simulates hovering the mouse over the element ``locator``.</doc>
+<arguments>
+<arg>id:file-submit</arg>
+</arguments>
+<msg timestamp="20200519 10:05:16.163" level="INFO">Simulating Mouse Over on element 'id:file-submit'.</msg>
+<status status="PASS" starttime="20200519 10:05:16.163" endtime="20200519 10:05:16.453"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20200519 10:05:21.455" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200519 10:05:16.453" endtime="20200519 10:05:21.455"></status>
+</kw>
+<kw name="Mouse Out" library="SeleniumLibrary">
+<doc>Simulates moving the mouse away from the element ``locator``.</doc>
+<arguments>
+<arg>id:file-submit</arg>
+</arguments>
+<msg timestamp="20200519 10:05:21.456" level="INFO">Simulating Mouse Out on element 'id:file-submit'.</msg>
+<status status="PASS" starttime="20200519 10:05:21.456" endtime="20200519 10:05:22.006"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20200519 10:05:27.010" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200519 10:05:22.008" endtime="20200519 10:05:27.010"></status>
+</kw>
+<kw name="Go Back" library="SeleniumLibrary">
+<doc>Simulates the user clicking the back button on their browser.</doc>
+<status status="PASS" starttime="20200519 10:05:27.010" endtime="20200519 10:05:27.116"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20200519 10:05:32.118" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200519 10:05:27.116" endtime="20200519 10:05:32.118"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>https://the-internet.herokuapp.com/upload</arg>
+</arguments>
+<msg timestamp="20200519 10:05:32.119" level="INFO">Opening url 'https://the-internet.herokuapp.com/upload'</msg>
+<status status="PASS" starttime="20200519 10:05:32.119" endtime="20200519 10:05:32.471"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20200519 10:05:37.472" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200519 10:05:32.471" endtime="20200519 10:05:37.472"></status>
+</kw>
+<kw name="Close All Browsers" library="SeleniumLibrary" type="teardown">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20200519 10:05:37.472" endtime="20200519 10:05:39.683"></status>
+</kw>
+<status status="PASS" starttime="20200519 10:04:58.318" endtime="20200519 10:05:39.684" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200519 10:04:58.002" endtime="20200519 10:05:39.690"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="SeleniumLibraryMouseOverOut">SeleniumLibraryMouseOverOut</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
